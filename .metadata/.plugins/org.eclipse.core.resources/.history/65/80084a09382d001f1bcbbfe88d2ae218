@@ -7,7 +7,7 @@
 </head>
 
 <body>
-	<h1>TodoList3</h1>
+	<h1>TodoList2</h1>
 
 	<h3>マイタスク</h3>
 	<form method="post" th:action="@{/update}" th:each="todo : ${todos}">
